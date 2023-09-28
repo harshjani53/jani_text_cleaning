@@ -4,7 +4,7 @@ setup(
   packages = ['jani_text_cleaning'],
   package_dir={'jani_text_cleaning': 'jani_text_cleaning'},
   package_data={'jani_text_cleaning': ['cleaning/*.py']},
-  version = 'v0.0.1',
+  version = 'v0.01',
   license='MIT',
   description = 'This python package does cleaning tasks on textual data and gives tokenized output.',
   author = 'HARSH JANI',
