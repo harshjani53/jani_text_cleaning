@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'jani_text_cleaning',
   packages = ['jani_text_cleaning'],
-  package_dir={'jani_text_cleaning': 'src/mypkg'},
+  package_dir={'jani_text_cleaning': 'src/jani_text_cleaning'},
   package_data={'jani_text_cleaning': ['cleaning/*.py']},
   version = 'v0.0.1',
   license='MIT',
