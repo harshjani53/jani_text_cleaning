@@ -10,7 +10,7 @@ setup(
   author = 'HARSH JANI',
   author_email = 'harshjani53@gmail.com',
   url = 'https://github.com/harshjani53/jani_text_cleaning',
-  download_url = 'https://github.com/harshjani53/jani_text_cleaning/archive/refs/tags/v0.0.1.tar.gz',   
+  download_url = 'https://github.com/harshjani53/jani_text_cleaning/archive/refs/tags/1.1.tar.gz',   
   install_requires=[
         'pandas','openpyxl','numpy','nltk'
       ])
