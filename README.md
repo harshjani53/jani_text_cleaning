@@ -12,7 +12,7 @@ Usage:
 
 from jani_text_cleaning import NLPCleaning()
 
-a = NLPCleaning(input_text="""This is a sentence with some verbs like running, dancing,etc,... and a hyperlink: https://www.google.com.Punctuations like?.,.!!! emoji👋👋😊😊😊 some html {<html><head></body<h1><p></html?> some custom stopwords which we wont need like alpha,beta,gamma,etc...,.,}""",custom_stopwords=['alpha','beta','Gamma'],method='l')
+a = NLPCleaning(input_text="""This is a sentence with some verbs like running, dancing,etc,... and a hyperlink: https://www.google.com.Punctuations like?.,.!!! emoji👋👋😊😊😊 some custom stopwords which we wont need like alpha,beta,gamma,etc...,.,}""",custom_stopwords=['alpha','beta','Gamma'],method='l')
 
 
 clean = a.clean()
