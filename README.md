@@ -6,3 +6,12 @@ It can also convert text to lowercase and tokenize it. The package can return th
 To install the package, run the following command:
 
 pip install jani_text_cleaning
+
+
+Usage:
+
+from jani_text_cleaning import NLPCleaning()
+
+a = NLPCleaning(input_text="This is a sentence with some verbs like running, dancing,etc,... and a hyperlink: https://www.google.com.Punctuations like?.,.!!! emoji👋👋😊😊😊 some html <html><head></body><h1><p></html?> some custom stopwords which we wont need like alpha,beta,gamma,etc...,.,",custom_stopwords=['alpha','beta','Gamma'],method='l')
+clean = a.clean()
+print(clean)
