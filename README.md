@@ -16,4 +16,5 @@ a = NLPCleaning(input_text="""This is a sentence with some verbs like running, d
 
 
 clean = a.clean()
+
 print(clean)
